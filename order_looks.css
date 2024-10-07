@@ -1,0 +1,31 @@
+img {
+    max-width: 5%;
+    max-height: 5%;
+}
+.container {
+    border: black solid 5px;
+    border-radius: 5px;
+    max-width: 100%;
+    background-color:rgba(240, 255, 255, 0.728)
+}
+body{
+    background-color: rgb(164, 222, 241);
+}
+
+/** This is to make the items align in the same place
+Spaces out the words**/
+nav ul li {
+    margin-left: 50%;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 100px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+/** gets rid of blue words and undeline **/
+nav ul li a { 
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
