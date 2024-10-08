@@ -1,16 +1,21 @@
+const inputfield = document.getElementById('entered_code');
 
-console.log("hgellow")
-
-const thank_you_message = "Thank you for submitting your code";
-let button = document.getElementById("enterbutton");
-let code_entry = document.getElementById("messagebox");
-
-button.addEventListener("click", function() {
-    if (code_entry.length < 9){
-        code_entry.innerHTML = "The code should be a 9 alpha numeric code";
+document.getElementById('enterbutton').addEventListener('click', function() {
+    const code = inputfield.value;
+    // inputfield is just where the user entered the code but renamed so the value can be stored or else code.length wont work since its not a value in Javascript if we dont use the .value;
+    if (code.length == 9) {
+        inputfield.value = 'Thank you for your submission!'; 
+    } else if (code.length > 0) {
+        inputfield.value = 'Please enter a valid code!';
     } else {
-        code_entry.innerHTML = thank_you_message;
+        inputfield.value = 'Enter a code!'
     }
-    console.log("the end")
-})
+    inputfield.setAttribute('readonly', true); 
+});
 
+inputfield.addEventListener('click', function() {
+    if (inputfield.readOnly) {
+        inputfield.removeAttribute('readonly'); 
+        inputfield.value = ''; 
+    }
+});
