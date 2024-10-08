@@ -1,8 +1,11 @@
 
 console.log("hgellow")
-const button = document.getElementById("enterbutton");
-let code_entry = document.getElementById("text")
-button.addEventListener("click", function(){
-    code_entry.innerText = "Thank you for submitting you code"
+
+const thank_you_message = "Thank you for submitting your code";
+let button = document.getElementById("enterbutton");
+let code_entry = document.getElementById("messagebox");
+
+button.addEventListener("click", function() {
+    code_entry.innerText = thank_you_message;
 })
 
