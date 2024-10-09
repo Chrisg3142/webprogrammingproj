@@ -8,7 +8,7 @@ img {
 .container {
     border: black solid 5px;
     border-radius: 5px;
-    background-color:rgba(240, 255, 255, 0.728)
+    background-color:rgba(240, 255, 255, 0.728);
 }
 
 /** This is to make the items align in the same place--
@@ -80,4 +80,10 @@ button{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 3px antiquewhite;
     box-shadow: 5px 5px 0px black;
+}
+
+footer {
+    background-color:rgba(240, 255, 255, 0.728);
+    border: 10px;
+    margin-top: 50px;
 }
