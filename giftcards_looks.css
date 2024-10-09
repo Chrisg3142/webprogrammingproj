@@ -39,6 +39,7 @@ p {
     border-radius: 5px;
     border: black solid 3px;
     max-width: 50%;
+    min-width: 25%;
     margin-left: 22%;
     height: 5in;
     padding-left: 1%;
