@@ -58,6 +58,7 @@ nav ul li a {
 .questions {
     border: 5px solid black;
     border-radius: 20px;
+    background-color: antiquewhite;
 }
 .questions h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
