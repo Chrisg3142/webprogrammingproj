@@ -1,6 +1,8 @@
-img {
-    max-width: 5%;
-    max-height: 5%;
+a img {
+    max-width: 6%;
+    max-height: 10%;
+    mix-blend-mode: multiply;
+    
 }
 body{
     background-color: rgb(164, 222, 241);
@@ -15,17 +17,66 @@ body{
 /** This is to make the items align in the same place
 Spaces out the words**/
 nav ul li {
-    margin-left: 50%;
     display: inline-block;
     list-style: none;
-    margin: 10px 100px;
+    margin: 1px 100px;
     font-size: 30px;
     align-items: center;
-    justify-content: center;
+    justify-content: center ;
 }
 /** gets rid of blue words and undeline **/
 nav ul li a { 
     color: black;
     text-decoration: none;
     position: relative;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.foodshow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    border: 5in;
+}
+
+.foodshow img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.questions {
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.questions h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+
+.questions h3 {
+    text-decoration: underline;
+    color:darkmagenta;
+}
+footer {
+    background-color:rgba(240, 255, 255, 0.728);
+    border: 10px;
+    margin-top: 90px;
+    left: 0;
+}
+
+footer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
