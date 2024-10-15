@@ -1,31 +1,29 @@
-body{
-    background-color: rgb(164, 222, 241);
-}
-
 a img {
-    display:inline-block;
-    max-width: 10%;
-    max-height: 15%;
+    width: 6%;
+    height: 10%;
     mix-blend-mode: multiply;
     
 }
-
 .container {
     border: black solid 5px;
     border-radius: 5px;
     max-width: 100%;
     background-color:rgba(240, 255, 255, 0.728)
 }
+body{
+    background-color: rgb(164, 222, 241);
+}
 
 /** This is to make the items align in the same place
 Spaces out the words**/
-nav ul li{
-    display:inline-block;
+nav ul li {
+    margin-left: 50%;
+    display: inline-block;
     list-style: none;
-    margin: 1px 100px;
+    margin: 10px 100px;
     font-size: 30px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 /** gets rid of blue words and undeline **/
 nav ul li a { 
@@ -34,8 +32,44 @@ nav ul li a {
     position: relative;
 }
 
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form img {
+    width: 300px;
+    height: 250px;
+}
+form label{
+    margin-right: 10px;
+}
+.inputNumber{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.inputNumber input {
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.inputNumber button{
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: antiquewhite;
+}
 
 footer {
     background-color:rgba(240, 255, 255, 0.728);
