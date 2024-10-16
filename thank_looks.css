@@ -1,0 +1,69 @@
+a img {
+    width: 6%;
+    height: 10%;
+    mix-blend-mode: multiply;
+    
+}
+.container {
+    border: black solid 5px;
+    border-radius: 5px;
+    max-width: 100%;
+    background-color:rgba(240, 255, 255, 0.728)
+}
+body{
+    background-color: rgb(164, 222, 241);
+}
+
+/** This is to make the items align in the same place
+Spaces out the words**/
+nav ul li {
+    margin-left: 50%;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 100px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+/** gets rid of blue words and undeline **/
+nav ul li a { 
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.thank-you-container {
+    height: 50%;
+    background-color: antiquewhite;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    padding: 20px;
+    text-align: center; 
+    max-width: 60%; 
+    margin: 200px auto; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.thank-you-container h1 {
+    color:rgb(53, 170, 216);
+    margin-bottom: 10px; 
+    font-size: 50px;
+}
+
+.thank-you-container p {
+    color: rgb(73, 73, 73); 
+    font-size: 40px;
+}
+
+footer {
+    background-color:rgba(240, 255, 255, 0.728);
+    border: 10px;
+    margin-top: 150px;
+    left: 0;
+}
+
+footer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
