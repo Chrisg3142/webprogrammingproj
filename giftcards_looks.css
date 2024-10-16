@@ -22,7 +22,7 @@ Spaces out the words**/
 nav ul li{
     display:inline-block;
     list-style: none;
-    margin: 1px 100px;
+    margin: 1px 80px;
     font-size: 30px;
     align-items: center;
     justify-content: space-evenly;
